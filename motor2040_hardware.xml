@@ -1,0 +1,9 @@
+<library path="motor2040_hardware">
+  <class name="motor2040_hardware/Motor2040Hardware"
+         type="motor2040_hardware_interface::Motor2040Hardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware Interface for a Pimoroni Motor2040 running https://github.com/adamwhats/motor2040_serial
+    </description>
+  </class>
+</library>
